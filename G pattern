@@ -1,0 +1,8 @@
+for r in range(9):
+     for c in range(8):
+          if((c==0 and r>0 and r<7) or ((r==0 or r== 7) and c in (1,2,3,4) ) or ((r==1 or r in (4,5,6) )and c==5) or
+             (r>=4 and c==7)or(r==4 and c in (3,4,6))):
+               print("*",end="")
+          else:
+               print(" ",end="")
+     print()
