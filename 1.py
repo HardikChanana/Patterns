@@ -12,7 +12,7 @@ for r in range(0,6):
                       print("*",end="")
                   else :
                       print("_",end="")
-                if(r>=2 or r<=5):                            
+                if(r>=2 and r<=5):                            
                   if(e==c or d==c):
                     print("*",end="")
                   else:
